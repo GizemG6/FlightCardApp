@@ -173,13 +173,13 @@ namespace FlightCardApp.Controllers
             flightPlaning.AddFlightPrice(new FlightTypePrice(name: FlightClass.Bussiness.ToString(), listPrice: 600));
             flightPlaning.AddFlightPrice(new FlightTypePrice(name: FlightClass.Economy.ToString(), listPrice: 250));
 
-            //var antalyaAirPort = new Airport("Hatay", "Antakya Hava Limanı", "ANTK");
+            // var antalyaAirPort = new Airport("Hatay", "Antakya Hava Limanı", "ANTK");
             var canakaleAirPort = new Airport("Çanakkale", "Çanakkale Hava Limanı", "ÇKALE");
             var vanAirPort = new Airport("Van", "Van Hava Limanı", "Van");
-            //var bursaAirPort = new Airport("Bursa", "Bursa Yenişehir Hava Limanı", "BUR");
-            //var ankaraAirPort = new Airport("Ankara", "Esenboğa Hava Limanı", "ESB");
-            //var istanbulAirPort = new Airport("istanbul", "İstanbul Hava Limanı", "IST");
-            //var frankfurtAirPort = new Airport("Frankfurt", "Frankfurt Hava Limanı", "FR");
+            // var bursaAirPort = new Airport("Bursa", "Bursa Yenişehir Hava Limanı", "BUR");
+            // var ankaraAirPort = new Airport("Ankara", "Esenboğa Hava Limanı", "ESB");
+            // var istanbulAirPort = new Airport("istanbul", "İstanbul Hava Limanı", "IST");
+            // var frankfurtAirPort = new Airport("Frankfurt", "Frankfurt Hava Limanı", "FR");
 
 
 
